@@ -6,9 +6,11 @@ const sans = DM_Sans({
 });
 export default function Home() {
   return (
-    <main className={sans.className}>
-      <Nav />
-      <Hero />
+    <main>
+      <div className={sans.className}>
+        <Nav />
+        <Hero />
+      </div>
     </main>
   );
 }
