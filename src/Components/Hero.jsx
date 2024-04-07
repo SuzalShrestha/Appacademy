@@ -32,6 +32,14 @@ function Hero() {
                 to commit to one of our full-fledged bootcamps.
               </p>
             </div>
+            <div className="flex gap-10">
+              <button className="bg-[#d0021b] text-white px-10 py-4 rounded-[3px]">
+                Submit an Application
+              </button>
+              <button className="border-[#d0021b] border-4 px-10 py-4 rounded-[3px]">
+                Talk with Admissions
+              </button>
+            </div>
           </div>
           <div className="bg-cover  bg-center bg-hero-image"></div>
         </div>
