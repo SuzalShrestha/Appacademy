@@ -6,9 +6,11 @@ const dm_display = DM_Serif_Display({
 });
 function Ranking() {
   return (
-    <div className="max-h-full flex-col items-center justify-center m-40 max-w-auto">
+    <div className="max-h-full flex-col items-center justify-center m-40 max-w-auto ">
       <div className="flex-col items-center justify-center">
-        <h1 className={`${dm_display.className} text-7xl mb-10 text-center`}>
+        <h1
+          className={`${dm_display.className} antialiased text-7xl mb-10 text-center`}
+        >
           Ranked a top software engineering coding bootcamp
         </h1>
         <p className="mb-10 text-xl text-center mx-60">
@@ -24,7 +26,15 @@ function Ranking() {
         <div className="bg-award-image-3 bg-cover  h-full w-[220px]"></div>
       </div>
       {/* <div className="slider mt-4 flex items-center justify-center">
-        <div className="w-[70%] h-[200px] border-[#d0021b] border-4 mt-10 rounded-[35px]"></div>
+        <div className="w-[70%] h-[200px] border-[#d0021b] border-4 mt-10 rounded-[35px] grid grid-row-1 grid-cols-3">
+          <div className="left-arrow text-[100px] text-[#d0021b] px-10 w-[25%]">
+            {"<"}
+          </div>
+          <div className="slider h-[100%]">Slider</div>
+          <div className="right-arrow text-[100px] text-[#d0021b]  w-[25%]">
+            {">"}
+          </div>
+        </div>
       </div> */}
     </div>
   );

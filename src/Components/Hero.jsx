@@ -1,5 +1,4 @@
 import { DM_Serif_Display } from "next/font/google";
-import Image from "next/image";
 const dmSerifDisplay = DM_Serif_Display({
   subsets: ["latin"],
   weight: "400",
@@ -9,9 +8,11 @@ function Hero() {
     <div className="hero  mix-blend-saturation ">
       <div className="hero_text_wrapper">
         <div className="grid grid-cols-2 bg-[#F8F8F8] ">
-          <div className=" grid gap-8 grid-col-1 h-[1200px] p-60 mt-[60px]  items-center">
+          <div className=" grid gap-8 grid-col-1 h-[1200px] p-40 mt-[60px]  items-center">
             <div className="">
-              <span className={`text-7xl ${dmSerifDisplay.className}`}>
+              <span
+                className={`text-7xl antialiased ${dmSerifDisplay.className}`}
+              >
                 Change your career, Change your life
               </span>
             </div>
